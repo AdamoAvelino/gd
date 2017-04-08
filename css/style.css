@@ -85,16 +85,19 @@ nav.menu ul li:hover a{
 
 .maior{
     
-    width: 50%;
+    width: 55%;
 
 }
 .menor{
-    margin-left: 80px;
+    margin-left: 40px;
     width: 40%;
 
 }
 .bloco3 .maior{
     width: 40%;
+}
+.bloco3 .menor{
+    margin-left: 90px;
 }
 
 .bloco2 .menor{
