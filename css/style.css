@@ -84,10 +84,12 @@ nav.menu ul li:hover a{
 
 
 .maior{
+    
     width: 40%;
 
 }
 .menor{
+    margin-left: 80px;
     width: 40%;
 
 }
@@ -272,10 +274,11 @@ section.conteudo, footer.conteudo{
 
 .bloco h2{
     color: #115c88;
+    margin-bottom: 15px;
 }
 .bloco p{
     color: #1b3d51;
-    font-size: 1.5em
+    font-size: 1em;
 }
 
 
