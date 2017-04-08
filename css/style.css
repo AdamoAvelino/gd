@@ -85,7 +85,7 @@ nav.menu ul li:hover a{
 
 .maior{
     
-    width: 40%;
+    width: 50%;
 
 }
 .menor{
@@ -93,6 +93,15 @@ nav.menu ul li:hover a{
     width: 40%;
 
 }
+.bloco3 .maior{
+    width: 40%;
+}
+
+.bloco2 .menor{
+    margin-left: 0;
+    margin-right: 50px;
+}
+
 .bloco img{
     box-shadow: 1px 1px 10px #000;
     width: 100%;

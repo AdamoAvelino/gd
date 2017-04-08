@@ -24,7 +24,7 @@ $('.bloco').each(function(i){
    if($(this).children().children().prop('tagName') != 'HEADER'){
      article = $(this).children().next();
    }else{
-     article = $(this).children('.maior');
+     article = $(this).children('.menor');
       console.log(article.children());
    }
    
