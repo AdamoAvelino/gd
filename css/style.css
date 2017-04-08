@@ -1,0 +1,378 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+  font-family: 'gd';
+  src: url('../fonts/Ubuntu-Regular.eot');
+  src: url('../fonts/Ubuntu-Regular?#iefix') format('embedded-opentype'),
+  url('../fonts/Ubuntu-Regular.svg#Locaweb-Icons') format('svg'),
+  url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: 'gd';
+}
+.clearfix::before, .clearfix::after {
+    content: "";    
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+nav ul li, .left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav.menu ul li a{
+    text-decoration: none;
+    color: #003f19;
+
+}
+.menu{
+    text-align: center;
+}
+
+nav.menu ul{
+    display: inline-block;
+    margin: 0 auto;
+
+}
+nav.menu ul li:hover a{
+    color: red;
+}
+
+.logo{
+    width: 80%;
+    margin-top: -15px;
+}
+
+.slider{
+    position: relative;
+}
+.slider p {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    width: 40%;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.toggle-nav, .brand_responsive{
+  display:none;
+}
+.brand img{
+  width:80%;
+}
+
+.verde{
+    background: #003f19;
+    color: #fff;
+}
+
+
+.maior{
+    width: 40%;
+
+}
+.menor{
+    width: 40%;
+
+}
+.bloco img{
+    box-shadow: 1px 1px 10px #000;
+    width: 100%;
+
+}
+
+.bloco img:first-child{
+    /*background: #fff;*/
+}
+
+.bloco{
+    margin-bottom: 10px;
+}
+.conteudo, .bloco{
+    padding: 50px
+}
+
+.bloco1, .bloco2, .bloco3{
+    overflow: hidden;
+    
+}
+
+.bloco2 header, .bloco3 header, .bloco1 header{
+    width: 100%;
+
+}
+
+.bloco1{
+    background: linear-gradient(to top, #dcd1c4 35%, #a8d5a1 35%);
+    
+}
+
+.bloco2{
+    background: linear-gradient(to top, #96cfe2 35%, #a3d4b4 35%);   
+
+}
+
+
+.bloco3{
+    background: linear-gradient(to top, #f1dfac 35%, #e5e0df 35%);    
+}
+
+
+.bloco3 figure{
+    z-index: 10;
+    padding: 25% 0 50% 0;
+}
+
+
+.bloco3 img{
+    display: inline-block; 
+    position: absolute;
+    clear: both;
+    top: 10%; 
+    left: 20%;
+    box-shadow: none;
+    /*padding: 20px;*/
+    box-sizing: border-box;
+    width: 65%;
+}
+
+.desempenho{
+    top:4%;
+    left:55%;
+}
+
+
+.etica{
+    left:82%;
+    top:35%;
+}
+
+.educacao{
+   left:78%;
+   top: 75%; 
+}
+
+.emprego{
+    left:47%;
+    top: 93%; 
+}
+
+.diversidade{
+    left:19%;
+    top: 66%; 
+}
+
+.saude{
+    left:22%;
+    top: 22%; 
+}
+
+
+.bloco3 img:first-child{
+    /*box-shadow: 1px 1px 10px #000;*/
+    border-radius:  5px;
+}
+
+
+
+section.conteudo, footer.conteudo{
+    padding: 20px 50px 20px 50px
+}
+.relative{
+    position: relative;
+}
+.more, .more_big{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #000;
+    border-radius: 50%;
+    background-color: #00568d; 
+    text-align:center;
+    box-shadow: 1px 1px  5px rgba(0,0,0,0.5);
+
+}
+.more:before, .more_big:before{
+    content: '+';
+    font-size: 1.5em;
+    /*margin-top: 20px;*/
+    color: #fff;
+    font-weight: bold;
+}
+.more_big{
+    width: 60px;
+    height: 60px;
+    
+}
+.more_big:before{
+    font-size: 3em;
+}
+
+/**
+ * Formatação de posição de elementos que disparam tooltip
+ * Bloco1
+ */
+ .bio{
+    top: 15%;
+    left: 32%;
+}
+
+.gas{
+    top: 13%;
+    left: 70%;
+}
+.energ{
+    top: 30%;
+    left: 83%;
+}
+.agua{
+    top: 28%;
+    left: 47%; 
+}
+.serv{
+    top: 55%;
+    left: 48%; 
+}
+
+/* Bloco 2 */
+.conf{
+    top:13%;
+    left:23%;    
+}
+.comun{
+    top:26%;
+    left:50%;
+}
+.forn{
+    top:80%;
+    left:25%;
+}
+.resid{
+    top:75%;
+    left:70%;
+}
+
+/*======================================================*/
+
+.bloco h2{
+    color: #115c88;
+}
+.bloco p{
+    color: #1b3d51;
+    font-size: 1.5em
+}
+
+
+.tooltip_small_left{
+    background-image: url(../imagens/tooltip_small_left.png);
+    
+}
+
+.tooltip_small_right{
+    background-image: url(../imagens/tooltip_small_right.png);
+}
+
+.tooltip_big_left{ 
+    background-image: url(../imagens/tooltip_small_left.png);
+    /* background-image: url(../imagens/tooltip_big_left.png); */
+}
+
+.tooltip_big_right{
+    /* background-image: url(../imagens/tooltip_big_right.png); */
+    background-image: url(../imagens/tooltip_small_right.png);
+}
+
+.tooltip, .tooltip_big_left, .tooltip_big_right, .tooltip_small_left, .tooltip_small_right{
+    width:190px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    z-index: 25;    
+}
+
+
+.tooltip span{
+    font-size: 1em;
+}
+
+.tooltip_invisivel{
+    display:none;
+}
+
+.tooltip_visivel{
+    position:absolute;
+    display: inline-block;
+}
+
+/*Animação*/
+
+
+.easy{
+    margin-left: 100%;
+    opacity: 0;
+
+}
+
+.rotacao_direita{
+    -webkit-transform: rotate(180deg);
+    opacity: 0;
+}
+
+.rotacao_direita_show{
+    margin-left: 0;
+    -webkit-transform: rotate(0deg);
+    opacity: 1;
+    -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
+
+}
+
+.rotacao_esquerda{
+    -webkit-transform: rotate(-180deg);
+    opacity: 0;
+}
+
+
+.rotacao_esquerda_show{
+    margin-left: 0;
+    -webkit-transform: rotate(0deg);
+    opacity: 1;
+    -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
+
+}
+
+.bloco1_show{
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ;
+}
+
+.easy_show{
+
+    margin-left: 0;
+    opacity: 1;
+    -webkit-transition: margin-left 1s, opacity 1s ease-in-out;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+
