@@ -107,7 +107,7 @@ nav.menu ul li:hover a{
     margin-bottom: 10px;
 }
 .conteudo, .bloco{
-    padding: 50px
+    padding: 50px 130px
 }
 
 .bloco1, .bloco2, .bloco3{
@@ -138,7 +138,7 @@ nav.menu ul li:hover a{
 
 .bloco3 figure{
     z-index: 10;
-    padding: 25% 0 50% 0;
+    padding: 55% 0 50% 0;
 }
 
 
@@ -151,37 +151,37 @@ nav.menu ul li:hover a{
     box-shadow: none;
     /*padding: 20px;*/
     box-sizing: border-box;
-    width: 65%;
+    width: 85%;
 }
 
 .desempenho{
-    top:4%;
-    left:55%;
+    top:7%;
+    left:66%;
 }
 
 
 .etica{
-    left:82%;
+    left:100%;
     top:35%;
 }
 
 .educacao{
-   left:78%;
-   top: 75%; 
+   left:93%;
+   top: 72%; 
 }
 
 .emprego{
-    left:47%;
-    top: 93%; 
+    left:51%;
+    top: 87%; 
 }
 
 .diversidade{
     left:19%;
-    top: 66%; 
+    top: 60%; 
 }
 
 .saude{
-    left:22%;
+    left:25%;
     top: 22%; 
 }
 

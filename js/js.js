@@ -14,13 +14,27 @@ $(document).ready(function () {
   
 //============================================
 //Formatação texto header centro
-  $('.bloco').each(function(i){
-    var altura_bloco = $(this).height();
-    var article = $(this).children().next(); // pega o proximo elemnto filho
-    var header = article.children().height();
-    var altura_centro =  (parseInt(altura_bloco) - parseInt(header)) / 2;
-      article.children().attr('style', 'margin-top:'+altura_centro+'px');
-  });
+$('.bloco').each(function(i){
+  var header = 0;
+  var article = 0;
+  var altura_bloco = $(this).height();
+
+    // console.log($(this).children().children().prop('tagName'));
+
+   if($(this).children().children().prop('tagName') != 'HEADER'){
+     article = $(this).children().next();
+   }else{
+     article = $(this).children('.maior');
+      console.log(article.children());
+   }
+   
+   
+   header = article.children().height();
+   var altura_centro =  (parseInt(altura_bloco) - parseInt(header)) / 2;
+
+
+   article.children().attr('style', 'margin-top:'+altura_centro+'px');
+ });
 
 //=============================================
 
@@ -102,9 +116,9 @@ function mostra_posicao(tooltip_id, elemento_more) {
     var top = (pos.top - pos_cont.top - altura_elemento);
 
   }
-  console.log('Posição top do elemento ḿore: = '+pos.top);
-  console.log('Posição top do elemento Container: = '+pos_cont.top);
-  console.log('Altura do elemento Toolltip:  = '+altura_elemento);
+  /*console.log('Posição top do elemento ḿore: = '+pos.top);*/
+  /*console.log('Posição top do elemento Container: = '+pos_cont.top);*/
+  /*console.log('Altura do elemento Toolltip:  = '+altura_elemento);*/
 
   var style = 'position: absolute; top:' + top + 'px; left:' + left + 'px;';
 
