@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+ul li{
+   list-style: none;
+}
+
 @font-face {
   font-family: 'gd';
   src: url('../fonts/Ubuntu-Regular.eot');
@@ -84,7 +88,7 @@ nav.menu ul li:hover a{
 
 
 .maior{
-    
+
     width: 55%;
 
 }
@@ -178,8 +182,8 @@ nav.menu ul li:hover a{
 }
 
 .educacao{
-   left:93%;
-   top: 72%; 
+ left:93%;
+ top: 72%; 
 }
 
 .emprego{
@@ -211,6 +215,26 @@ section.conteudo, footer.conteudo{
 .relative{
     position: relative;
 }
+
+.container-tooltip{
+    display: block;
+
+}
+.tooltip_invisivel, .tooltip_invisivel_right{
+    display:none;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: 0%;
+        
+    }
+    to {
+        margin-top: .4%;
+        
+    }
+    } 
+
 .more, .more_big{
     width: 30px;
     height: 30px;
@@ -220,8 +244,13 @@ section.conteudo, footer.conteudo{
     background-color: #00568d; 
     text-align:center;
     box-shadow: 1px 1px  5px rgba(0,0,0,0.5);
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
 
 }
+
+
 .more:before, .more_big:before{
     content: '+';
     font-size: 1.5em;
@@ -238,10 +267,30 @@ section.conteudo, footer.conteudo{
     font-size: 3em;
 }
 
+.more:hover .tooltip_invisivel, .more:hover .tooltip_invisivel_right{
+    display: inline-block;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -50px;
+    height: 500%;
+    width: 1000%;
+}
+
+.tooltip_invisivel li{
+    margin-left: 50px;
+}
+.tooltip_invisivel_right{
+    left: -400%;
+}
+
+
+
+
 /**
  * Formatação de posição de elementos que disparam tooltip
  * Bloco1
  */
+
  .bio{
     top: 15%;
     left: 32%;
@@ -324,70 +373,70 @@ section.conteudo, footer.conteudo{
     z-index: 25;    
 }
 
-
 .tooltip span{
     font-size: 1em;
 }
 
-.tooltip_invisivel{
-    display:none;
-}
+
 
 .tooltip_visivel{
     position:absolute;
     display: inline-block;
 }
+/*.container-tootip{
+    border: 1px solid #000;
+    }*/
 
-/*Animação*/
-
-
-.easy{
-    margin-left: 100%;
-    opacity: 0;
-
-}
-
-.rotacao_direita{
-    -webkit-transform: rotate(180deg);
-    opacity: 0;
-}
-
-.rotacao_direita_show{
-    margin-left: 0;
-    -webkit-transform: rotate(0deg);
-    opacity: 1;
-    -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
-
-}
-
-.rotacao_esquerda{
-    -webkit-transform: rotate(-180deg);
-    opacity: 0;
-}
+    /* -------------------------------------Animação ----------------------------------------------------*/
 
 
-.rotacao_esquerda_show{
-    margin-left: 0;
-    -webkit-transform: rotate(0deg);
-    opacity: 1;
-    -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
+    .easy{
+        margin-left: 100%;
+        opacity: 0;
 
-}
+    }
 
-.bloco1_show{
-    opacity: 1;
-    -webkit-transition: opacity 0.5s ;
-}
+    .rotacao_direita{
+        -webkit-transform: rotate(180deg);
+        opacity: 0;
+    }
 
-.easy_show{
+    .rotacao_direita_show{
+        margin-left: 0;
+        -webkit-transform: rotate(0deg);
+        opacity: 1;
+        -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
 
-    margin-left: 0;
-    opacity: 1;
-    -webkit-transition: margin-left 1s, opacity 1s ease-in-out;
-}
+    }
+
+    .rotacao_esquerda{
+        -webkit-transform: rotate(-180deg);
+        opacity: 0;
+    }
 
 
-/*-----------------------------------------------------------------------------------*/
+    .rotacao_esquerda_show{
+        margin-left: 0;
+        -webkit-transform: rotate(0deg);
+        opacity: 1;
+        -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
+
+    }
+
+    .bloco1_show{
+        opacity: 1;
+        -webkit-transition: opacity 0.5s ;
+    }
+
+    .easy_show{
+
+        margin-left: 0;
+        opacity: 1;
+        -webkit-transition: margin-left 1s, opacity 1s ease-in-out;
+    }
+
+
+    /*-----------------------------------------------------------------------------------*/
 
 
 

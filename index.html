@@ -64,17 +64,57 @@
           <article class='left maior'>
             <figure class="relative" id='container1'>
               <img src='imagens/bloco1.png' class='single '>
-              <div class="tooltip_invisivel" id='div_bio' data-ativo='bio_small_left'><span>Biodiversidade</span></div>
-              <div class="tooltip_invisivel" id='div_gas' data-ativo='gas_small_left'><span>Emissão de Gases</span></div>
+              <!-- <div class="tooltip_invisivel" id='div_bio' data-ativo='bio_small_left'><span>Biodiversidade</span></div> -->
+              <!-- <div class="tooltip_invisivel" id='div_gas' data-ativo='gas_small_left'><span>Emissão de Gases</span></div>
               <div class="tooltip_invisivel" id='div_agua' data-ativo='agua_small_left'><span>Tratamento de Água</span></div>
               <div class="tooltip_invisivel" id='div_serv' data-ativo='serv_small_left'><span>Serviços</span></div>
-              <div class="tooltip_invisivel" id='div_energ' data-ativo='energ_small_right'><span>Energia</span></div>
+              <div class="tooltip_invisivel" id='div_energ' data-ativo='energ_small_right'><span>Energia</span></div> -->
+               
+               <ul class="container-tooltip">
+                <li class="more bio">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left" id="div_bio"><span>Biodiversidade</span></li>
+                  </ul>
+                </li>
+              </ul>
 
-              <div class='more bio' id='bio'></div>
-              <div class='more gas' id='gas'></div>
-              <div class='more agua' id='agua'></div>
-              <div class='more serv' id='serv'></div>
-              <div class='more energ' id='energ'></div>
+              <ul class="container-tooltip">
+                <li class="more gas">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left"><span>Emissão de Gases</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="container-tooltip">
+                <li class="more agua">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left"><span>Tratamento de Água</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="container-tooltip">
+                <li class="more serv">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left"><span>Serviços</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="container-tooltip">
+                <li class="more energ">
+                  <ul class="tooltip_invisivel_right">
+                    <li class="tooltip_small_right"><span>Energia</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+             <!--  <div class='more bio' id='bio'></div>
+             <div class='more gas' id='gas'></div>
+             <div class='more agua' id='agua'></div>
+             <div class='more serv' id='serv'></div>
+             <div class='more energ' id='energ'></div> -->
             </figure>
           </article>
           <article class='left menor'>
@@ -99,7 +139,7 @@
           <article class='left maior'>
             <figure class="relative" id='container2'>
               <img src='imagens/bloco2.png' class='dobro '>
-              <div class="tooltip_invisivel" id='div_conf' data-ativo='conf_small_left'><span>Conformidade</span></div>
+              <!-- <div class="tooltip_invisivel" id='div_conf' data-ativo='conf_small_left'><span>Conformidade</span></div>
               <div class="tooltip_invisivel" id='div_comun' data-ativo='comun_small_left'><span>Comunidades Locais</span></div>
               <div class="tooltip_invisivel" id='div_forn' data-ativo='forn_small_left'><span>Relação com fornecedores</span></div>
               <div class="tooltip_invisivel" id='div_resid' data-ativo='resid_small_left'><span>Resíduo</span></div>
@@ -107,7 +147,41 @@
               <div class='more conf' id='conf'></div>
               <div class='more comun' id='comun'></div>
               <div class='more forn' id='forn'></div>
-              <div class='more resid' id='resid'></div>
+              <div class='more resid' id='resid'></div> -->
+
+              <ul class="container-tooltip">
+                <li class="more conf">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left"><span>Conformidade</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="container-tooltip">
+                <li class="more comun">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left"><span>Comunidade</span></li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <ul class="container-tooltip">
+                <li class="more forn">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left"><span>Relação como Fornecedores</span></li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <ul class="container-tooltip">
+                <li class="more resid">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_small_left"><span>Resíduos</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+
             </figure>
           </article>
         </section>
@@ -122,36 +196,53 @@
               <img src='imagens/fatia5.png' class='animacao img_direita rotacao_direita' data-animacao='rotacao_direita_show'/>
               <img src='imagens/fatia6.png' class='animacao img_esquerda rotacao_esquerda' data-animacao='rotacao_esquerda_show'/>
 
-              
-              <div>
-                <div class='more desempenho' id='desempenho'></div>
-                <div class="tooltip_invisivel" id='div_desempenho' data-ativo='desempenho_big_left'><span>Desempenho</span></div>
-              </div>
-              
-              <div>
-                <div class='more etica' id='etica'></div>
-                <div class="tooltip_invisivel" id='div_etica' data-ativo='etica_big_left'><span>Ética</span></div>
-              </div>
-              
-              <div>
-                <div class='more educacao' id='educacao'></div>
-                <div class="tooltip_invisivel" id='div_educacao' data-ativo='educacao_big_left'><span>Educação</span></div>
-              </div>
+              <ul class='container-tootip'>
+                <li class='more desempenho'>
+                  <ul class="tooltip_invisivel">
+                    <li class=" tooltip_big_left" id='div_desempenho'><span>Desempenho</span></li>
+                  </ul>
+                </li>
+              </ul>
 
-              <div>
-                <div class='more emprego' id='emprego'></div>
-                <div class="tooltip_invisivel" id='div_emprego' data-ativo='emprego_big_left'><span>Emprego</span></div>
-              </div>
-              
-              <div>
-                <div class='more diversidade' id='diversidade'></div>
-                <div class="tooltip_invisivel" id='div_diversidade' data-ativo='diversidade_big_right'><span>Diversidade</span></div>
-              </div>
+              <ul class="container-tooltip">
+                <li class="more etica">
+                  <ul class="tooltip_invisivel">
+                    <li class="tooltip_big_left" id="div_etica"><span>Etica</span></li>
+                  </ul>
+                </li>
+              </ul>
 
-              <div>
-                <div class='more saude' id='saude'></div>
-                <div class="tooltip_invisivel" id='div_saude' data-ativo='saude_big_right'><span>Saúde</span></div>
-              </div>
+              <ul class="container-tooltip">
+                <li class="more educacao">
+                  <ul class='tooltip_invisivel'>
+                    <li class=" tooltip_big_left" id="div_educacao"><span>Educação</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="container-tooltip">
+                <li class="more emprego">
+                  <ul class='tooltip_invisivel'>
+                    <li class=" tooltip_big_left" id="div_emprego"><span>Emprego</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+               <ul class="container-tooltip">
+                <li class="more diversidade">
+                  <ul class="tooltip_invisivel_right">
+                    <li class="tooltip_big_right" id="div_diversidade"><span>Diversidade</span></li>
+                  </ul>
+                </li>
+              </ul>
+
+               <ul class="more saude">
+                <li >
+                  <ul class="tooltip_invisivel_right">
+                    <li class="tooltip_big_right" id="div_saude"><span>Saúde</span></li>
+                  </ul>
+                </li>
+              </ul>
 
             </figure>
           </article>
