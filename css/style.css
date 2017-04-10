@@ -4,7 +4,7 @@
 }
 
 ul li{
-   list-style: none;
+ list-style: none;
 }
 
 @font-face {
@@ -16,6 +16,50 @@ ul li{
   font-weight: normal;
   font-style: normal;
 }
+
+
+@-webkit-keyframes pulse
+{
+    0%
+    {
+        width: 0;
+        height: 0;
+        opacity: 1;
+        left: 50px;
+        top: 50px;
+    }
+    100%
+    {
+        width: 15px;
+        height: 15px;
+        opacity: 0;
+        top:35px;
+        left: 35px;
+    }
+}
+
+@-webkit-keyframes rodaroda {
+    from {
+        -webkit-transform:rotate(0deg);
+    }
+    to {
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+@-webkit-keyframes slidein {
+    from {
+        margin-top: 0%;
+        
+    }
+    to {
+        margin-top: .4%;
+        
+    }
+}
+
+
+
 body{
   font-family: 'gd';
 }
@@ -184,8 +228,8 @@ nav.menu ul li:hover a{
 }
 
 .educacao{
- left:93%;
- top: 72%; 
+   left:93%;
+   top: 72%; 
 }
 
 .emprego{
@@ -226,16 +270,7 @@ section.conteudo, footer.conteudo{
     display:none;
 }
 
-@keyframes slidein {
-    from {
-        margin-top: 0%;
-        
-    }
-    to {
-        margin-top: .4%;
-        
-    }
-    } 
+
 
 .more, .more_big{
     width: 30px;
@@ -386,31 +421,104 @@ section.conteudo, footer.conteudo{
     display: inline-block;
 }
 
+.chamine{
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    top: 42%;
+    left: 75%;
+    
+}
+
 .engrenagem{
     position: absolute;
     width: 7.8%;
+    height: 100%;
     top: 50%;
     left: 73%;
+    
 }
+
 
 .grande,  .medio, .pequena{
 
     position: absolute;
-}
- 
-.grande{
-    width: 80%;
-    top: 2%;
+
 }
 
-.medio{
+.engrenagem .grande{
+    width: 60%;
+    top: 8%;
+    box-shadow: none;
+    -webkit-animation-name: rodaroda;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    /* -webkit-animation-direction: alternate; */
+}
+
+.engrenagem .medio{
     width: 50%;
-    top: 6%;
+    top: 14%;
+    left:10%;
+    box-shadow: none;
+    -webkit-animation-name: rodaroda;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
 }
 
-.pequena{
-    width: 20%;
-    top: 100%;
+.engrenagem .pequena{
+    width: 30%;
+    top: 13%;
+    left:55%;
+    box-shadow: none;
+    -webkit-animation-name: rodaroda;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+.fumaca-longa
+{
+    animation-name: pulse;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 20%;
+    font: 0/0 serif;
+    position: absolute;
+}
+.fumaca-media
+{
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 10%;
+    font: 0/0 serif;
+    position: absolute;
+}
+.fumaca-curta
+{
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 18%;
+    margin-left: 13%;
+    font: 0/0 serif;
+    position: absolute;
 }
 
 /*.container-tootip{
