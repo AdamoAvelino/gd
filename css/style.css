@@ -97,6 +97,8 @@ nav.menu ul li:hover a{
     width: 40%;
 
 }
+
+
 .bloco3 .maior{
     width: 40%;
 }
@@ -383,6 +385,34 @@ section.conteudo, footer.conteudo{
     position:absolute;
     display: inline-block;
 }
+
+.engrenagem{
+    position: absolute;
+    width: 7.8%;
+    top: 50%;
+    left: 73%;
+}
+
+.grande,  .medio, .pequena{
+
+    position: absolute;
+}
+ 
+.grande{
+    width: 80%;
+    top: 2%;
+}
+
+.medio{
+    width: 50%;
+    top: 6%;
+}
+
+.pequena{
+    width: 20%;
+    top: 100%;
+}
+
 /*.container-tootip{
     border: 1px solid #000;
     }*/
