@@ -18,7 +18,9 @@
       <ul class="container-tooltip">
         <li class="more bio">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left" id="div_bio"><span>Biodiversidade</span></li>
+            <li class="tooltip_small_left" id="div_bio">
+              <a href="biodiversidade.php"><span>Biodiversidade</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -26,7 +28,9 @@
       <ul class="container-tooltip">
         <li class="more gas">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left"><span>Emissão de Gases</span></li>
+            <li class="tooltip_small_left">
+              <a href="emissao_gases.php"><span>Emissão de Gases</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -34,7 +38,9 @@
       <ul class="container-tooltip">
         <li class="more agua">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left"><span>Tratamento de Água</span></li>
+            <li class="tooltip_small_left">
+              <a href="tratamento_agua.php"><span>Tratamento de Água</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -42,7 +48,9 @@
       <ul class="container-tooltip">
         <li class="more serv">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left"><span>Serviços</span></li>
+            <li class="tooltip_small_left">
+              <a href="servicos.php"><span>Serviços</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -50,11 +58,12 @@
       <ul class="container-tooltip">
         <li class="more energ">
           <ul class="tooltip_invisivel_right">
-            <li class="tooltip_small_right"><span>Energia</span></li>
+            <li class="tooltip_small_right">
+              <a href="energia.php"><span>Energia</span></a>
+            </li>
           </ul>
         </li>
       </ul>
-
 
     </figure>
   </article>
@@ -64,6 +73,7 @@
       <p>Conduzir nossos negócios de maneira sustentável signiﬁca para nós gerar valor para todos os 
         envolvidos: parceiros comerciais, comunidades locais vizinhas às unidades, clientes, sociedade e investidores.
       </p>
+      
     </header>
   </article>
 </section>
@@ -85,17 +95,19 @@
         <img src='imagens/medio.png' class='medio'>
         <img src='imagens/pequena.png' class='pequena'>
       </div>
-      
+
       <div class='chamine'>
         <span class="fumaca-longa"></span>              
         <span class="fumaca-media"></span>              
         <span class="fumaca-curta"></span>              
       </div>
-      
+
       <ul class="container-tooltip">
         <li class="more conf">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left"><span>Conformidade</span></li>
+            <li class="tooltip_small_left">
+              <a href="conformidade.php"><span>Conformidade</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -103,7 +115,9 @@
       <ul class="container-tooltip">
         <li class="more comun">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left"><span>Comunidade</span></li>
+            <li class="tooltip_small_left">
+              <a href='comunidade.php'><span>Comunidade</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -111,7 +125,9 @@
       <ul class="container-tooltip">
         <li class="more forn">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left"><span>Relação como Fornecedores</span></li>
+            <li class="tooltip_small_left">
+              <a href="fornecedores.php"><span>Relação como Fornecedores</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -119,7 +135,9 @@
       <ul class="container-tooltip">
         <li class="more resid">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_small_left"><span>Resíduos</span></li>
+            <li class="tooltip_small_left">
+              <a href="residuos.php"><span>Resíduos</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -140,17 +158,21 @@
       <ul class='container-tootip'>
         <li class='more desempenho'>
           <ul class="tooltip_invisivel">
-            <li class=" tooltip_big_left" id='div_desempenho'><span>Desempenho</span></li>
+            <li class=" tooltip_big_left" id='div_desempenho'>
+              <a href="desempenho.php"> <span>Desempenho</span></a>
+            </li>
           </ul>
         </li>
       </ul>
       <ul class="container-tooltip">
         <li class="more etica">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_big_left" id="div_etica"><span>Etica</span></li>
+            <li class="tooltip_big_left" id="div_etica">
+              <a href="etica.php"><span>Etica</span></li></a>
           </ul>
         </li>
       </ul>
+      
       <ul class="container-tooltip">
         <li class="more educacao">
           <ul class='tooltip_invisivel'>
@@ -196,4 +218,6 @@
 </section>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src='js/js.js'></script>
 <?php include 'footer.php' ?>
