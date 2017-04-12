@@ -168,14 +168,10 @@ nav.menu ul li:hover a{
     margin-right: 50px;
 }
 
-.bloco img{
+.bloco1 img, .bloco2 img{
     box-shadow: 1px 1px 10px #000;
     width: 100%;
 
-}
-
-.bloco img:first-child{
-    /*background: #fff;*/
 }
 
 .bloco{
@@ -331,8 +327,16 @@ figure.imagem-icons img{
 .tooltip_invisivel_right{
     left: -400%;
 }
-
-
+.lateral-componente{
+    padding: 30px 0;
+}
+.lateral-componente figure{
+    width: 20%
+}
+.lateral-componente div{
+    width: 70%;
+    margin-left:5%;
+}
 
 
 /**
@@ -600,7 +604,7 @@ section.conteudo, footer.conteudo{
 }
 
 .teaser img, .img-central, .icones img, .tabela img, .alinhamento-direita img{
-    box-shadow: none;
+    margin-left: 0;
 }
 
 .img-central{
@@ -624,7 +628,7 @@ section.conteudo, footer.conteudo{
 
 .tabela {
     width: 70%;
-    margin: 0px auto;
+    
 }
 
 .alinhamento-direita{

@@ -29,7 +29,7 @@
         <li class="more gas">
           <ul class="tooltip_invisivel">
             <li class="tooltip_small_left">
-              <a href="emissao_gases.php"><span>Emissão de Gases</span></a>
+              <a href="emissoes.php"><span>Emissão de Gases</span></a>
             </li>
           </ul>
         </li>
@@ -176,14 +176,18 @@
       <ul class="container-tooltip">
         <li class="more educacao">
           <ul class='tooltip_invisivel'>
-            <li class=" tooltip_big_left" id="div_educacao"><span>Educação</span></li>
+            <li class=" tooltip_big_left" id="div_educacao">
+              <a href="educacao.php"><span>Educação</span></a>
+            </li>
           </ul>
         </li>
       </ul>
       <ul class="container-tooltip">
         <li class="more emprego">
           <ul class='tooltip_invisivel'>
-            <li class=" tooltip_big_left" id="div_emprego"><span>Emprego</span></li>
+            <li class=" tooltip_big_left" id="div_emprego">
+              <a href='emprego.php'><span>Emprego</span></a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -191,15 +195,19 @@
       <ul class="container-tooltip">
         <li class="more diversidade">
           <ul class="tooltip_invisivel_right">
-            <li class="tooltip_big_right" id="div_diversidade"><span>Diversidade</span></li>
+            <li class="tooltip_big_right" id="div_diversidade">
+              <a href='diversidade.php'><span>Diversidade</span></a>
+            </li>
           </ul>
         </li>
       </ul>
 
-      <ul class="more saude">
-        <li >
+      <ul >
+        <li class="more saude">
           <ul class="tooltip_invisivel_right">
-            <li class="tooltip_big_right" id="div_saude"><span>Saúde</span></li>
+            <li class="tooltip_big_right" id="div_saude">
+              <a href='saude.php'><span>Saúde</span></a>
+            </li>
           </ul>
         </li>
       </ul>
