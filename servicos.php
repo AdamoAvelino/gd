@@ -8,7 +8,7 @@
 
 <section class="bloco artigo">
 	<article>
-		<p>Conduzir nossos negócios de maneira sustentável signi?ca para nós gerar valor para todos os envolvidos: parceiros comerciais, comunidades locais vizinhas às unidades, clientes, sociedade e investidores. Ações que produzam benefícios em toda a cadeia garantirão o crescimento e a perenidade de nossos negócios.</p>
+		<p>Conduzir nossos negócios de maneira sustentável significa para nós gerar valor para todos os envolvidos: parceiros comerciais, comunidades locais vizinhas às unidades, clientes, sociedade e investidores. Ações que produzam benefícios em toda a cadeia garantirão o crescimento e a perenidade de nossos negócios.</p>
 
 		<p>Aprofundamos ano após ano o relacionamento com todos os nossos parceiros, estando presentes no dia a dia e oferecendo condições diferenciadas de atuação no mercado. </p>
 
@@ -26,7 +26,7 @@
 
 		<p>Nossos armazéns de estocagem estão localizados no Mato Grosso e em Tocantins e atualmente nossa estrutura física tem capacidade de armazenagem de mais de 700.000 toneladas. A partir de nossas bases, desenvolvemos uma infraestrutura logística que garante o escoamento contínuo dos grãos até os principais portos brasileiros.</p>
 
-		<p>Outro diferencial de nossos grãos está no processo de classi?cação e padronização que adotamos em nossas unidades, por meio de modernos equipamentos, que asseguram os produtos para comercialização nos exigentes padrões dos mercados interno e externo.</p>
+		<p>Outro diferencial de nossos grãos está no processo de classificação e padronização que adotamos em nossas unidades, por meio de modernos equipamentos, que asseguram os produtos para comercialização nos exigentes padrões dos mercados interno e externo.</p>
 
 		<p>Nosso objetivo é originar 2,15 milhões de toneladas de soja e 1,4 milhão de toneladas de milho na safra 2016/2017, o que representará um aumento de 31% na originação de soja e de 74% na originação de milho em comparação com o ano de 2015.</p>
 	</article>
@@ -52,9 +52,9 @@
 		</figure>
 		<p>Com a percepção da importância de verticalizar nossas atividades e em sintonia com nossos valores socioambientais, investimos na fabricação de biodiesel, um combustível renovável produzido em sua maioria por fontes vegetais. O biodiesel é um produto estratégico para a economia nacional. Utilizado em grande escala, introduz uma nova matriz energética que reduz a emissão de gases de efeito estufa e de outros gases poluentes.</p>
 
-		<p>Localizada em Lucas do Rio Verde, a fábrica de biodiesel entrou em operação em 2008 e tem capacidade para produzir 200 milhões de litros por ano de biocombustível. Toda a lenha utilizada para a geração de vapor na fábrica é proveniente de madeira de reflorestamento. Parte da matéria-prima do combustível origina-se de pequenas propriedades, como forma de promovermos a agricultura familiar, proporcionando reais condições de ?xação no campo e geração de emprego e renda. Por essa razão, nos foi concedido o Selo Combustível Social.</p>
+		<p>Localizada em Lucas do Rio Verde, a fábrica de biodiesel entrou em operação em 2008 e tem capacidade para produzir 200 milhões de litros por ano de biocombustível. Toda a lenha utilizada para a geração de vapor na fábrica é proveniente de madeira de reflorestamento. Parte da matéria-prima do combustível origina-se de pequenas propriedades, como forma de promovermos a agricultura familiar, proporcionando reais condições de fixação no campo e geração de emprego e renda. Por essa razão, nos foi concedido o Selo Combustível Social.</p>
 
-		<p>Comercializamos também a glicerina, subproduto da fabricação do biodiesel, que tem grande uso nas indústrias alimentícias, têxteis, farmacêuticas, de cosméticos e de celulose. A glicerina produzida possui alta concentração de glicerol - mínimo de 80% - e alta qualidade para processos de destilação. Trabalhamos atualmente para aprimorar ainda mais o processo de puri?cação da glicerina e em breve apresentaremos ao mercado um produto com maior valor agregado.</p>
+		<p>Comercializamos também a glicerina, subproduto da fabricação do biodiesel, que tem grande uso nas indústrias alimentícias, têxteis, farmacêuticas, de cosméticos e de celulose. A glicerina produzida possui alta concentração de glicerol - mínimo de 80% - e alta qualidade para processos de destilação. Trabalhamos atualmente para aprimorar ainda mais o processo de purificação da glicerina e em breve apresentaremos ao mercado um produto com maior valor agregado.</p>
 	</article>
 
 	<article class="alinhamento-direita">
@@ -62,7 +62,7 @@
 			<img src="imagens/logo_servicos.png" alt="">
 			<caption>SELO COMBUSTÍVEL SOCIAL</caption>
 		</figure>
-		<p>O Selo Combustível Social é um componente de identi?cação criado a partir do Decreto Nº 5.297, de 6 de dezembro de 2004, concedido pelo Ministério do Desenvolvimento Agrário, atualmente Secretaria Especial, ao produtor de biodiesel que cumpre os critérios descritos na Portaria nº 337, de 18 de setembro de 2015. O Selo confere ao seu possuidor o caráter de promotor de inclusão social dos agricultores familiares enquadrados.</p>
+		<p>O Selo Combustível Social é um componente de identificação criado a partir do Decreto Nº 5.297, de 6 de dezembro de 2004, concedido pelo Ministério do Desenvolvimento Agrário, atualmente Secretaria Especial, ao produtor de biodiesel que cumpre os critérios descritos na Portaria nº 337, de 18 de setembro de 2015. O Selo confere ao seu possuidor o caráter de promotor de inclusão social dos agricultores familiares enquadrados.</p>
 	</article>
 
 	

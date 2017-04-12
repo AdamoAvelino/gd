@@ -15,6 +15,19 @@
   <article class='left maior'>
     <figure class="relative" id='container1'>
       <img src='imagens/bloco1.png' class='single '>
+      
+      <div class='engrenagem'>
+        <img src='imagens/grande.png' class='grande'>
+        <img src='imagens/medio.png' class='medio'>
+        <img src='imagens/pequena.png' class='pequena'>
+      </div>
+
+      <div class='chamine'>
+        <span class="fumaca-longa"></span>              
+        <span class="fumaca-media"></span>              
+        <span class="fumaca-curta"></span>              
+      </div>
+
       <ul class="container-tooltip">
         <li class="more bio">
           <ul class="tooltip_invisivel">
@@ -68,13 +81,16 @@
     </figure>
   </article>
   <article class='left menor'>
-    <header>
+  
+    
+    <header class=''>
       <h2>A Fiagril no Mundo</h2>
       <p>Conduzir nossos negócios de maneira sustentável signiﬁca para nós gerar valor para todos os 
         envolvidos: parceiros comerciais, comunidades locais vizinhas às unidades, clientes, sociedade e investidores.
       </p>
       
     </header>
+  
   </article>
 </section>
 

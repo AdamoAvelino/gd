@@ -14,7 +14,7 @@
 		
 		<p>Dessa forma, trabalhamos para que os impactos adversos na biodiversidade, ainda que indiretos, sejam integralmente evitados no que tange a redução das espécies, o desmatamento, a poluição de corpos d'água e o aquecimento global.</p>
 
-		<p>Impactar negativamente o meio ambiente, com desmatamento ilegal e contaminação de solo, por exemplo, contribui para o possível desaparecimento de um grande número de espécies. Além disso, o desmatamento ilegal está também relacionado à emissão de gás carbônico na atmosfera, que intensi?ca o efeito estufa e agrava o aquecimento global. A degradação do meio vai além do impacto ambiental, pois muitas famílias de produtores estão há gerações trabalhando no campo.</p>
+		<p>Impactar negativamente o meio ambiente, com desmatamento ilegal e contaminação de solo, por exemplo, contribui para o possível desaparecimento de um grande número de espécies. Além disso, o desmatamento ilegal está também relacionado à emissão de gás carbônico na atmosfera, que intensifica o efeito estufa e agrava o aquecimento global. A degradação do meio vai além do impacto ambiental, pois muitas famílias de produtores estão há gerações trabalhando no campo.</p>
 
 		<p>Nesse sentido, somos signatários da Moratória da Soja: não adquirimos grãos oriundos de áreas de desmatamento ilegal e vetamos fornecedores irregulares. Esse acordo vem ajudando a mudar a realidade do campo e estudos internacionais apontam que ele foi cinco vezes mais eficiente em reduzir o desmataento que todas as leis florestais existentes no Brasil.</p>
 
@@ -59,7 +59,7 @@
 
 				<p>A assistência técnica especializada e estruturada que prestamos nos nossos  principais centros agrícolas aumenta a produtividade com o uso de tecnologias sem a necessidade de expansão de áreas e com preservação dos recursos naturais. </p>
 
-				<p>Incentivando nossos fornecedores a elevar seu padrão de conduta, conseguimos mais quali?cação no ambiente de negócios.</p>
+				<p>Incentivando nossos fornecedores a elevar seu padrão de conduta, conseguimos mais qualificação no ambiente de negócios.</p>
 			</div>
 		</div>
 	</article>
@@ -80,7 +80,7 @@
 
 				<p>A assistência técnica especializada e estruturada que prestamos nos nossos  principais centros agrícolas aumenta a produtividade com o uso de tecnologias sem a necessidade de expansão de áreas e com preservação dos recursos naturais.</p>
 				
-				<p>Incentivando nossos fornecedores a elevar seu padrão de conduta, conseguimos mais quali?cação no ambiente de negócios.</p>
+				<p>Incentivando nossos fornecedores a elevar seu padrão de conduta, conseguimos mais qualificação no ambiente de negócios.</p>
 			</div>
 		</div>
 	</article>
