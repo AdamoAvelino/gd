@@ -12,6 +12,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'gd2';
+  src: url('../fonts/maisfontes-corbel');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 @-webkit-keyframes pulse
@@ -205,7 +211,9 @@ nav.menu ul li:hover a{
 .bloco3{
     background: linear-gradient(to top, #f1dfac 35%, #e5e0df 35%);    
 }
-
+.bloco3 p, .bloco2 p, .bloco1 p, .bloco3 h2, .bloco2 h2, .bloco1 h2{
+    color:#1b3d51 !important;
+}
 
 .bloco3 figure{
     z-index: 10;
@@ -393,13 +401,13 @@ figure.imagem-icons img{
 
 /*======================================================*/
 
-.bloco h2{
-    color: #115c88;
+.bloco h3, .bloco h2{
+    color: #8b9093;
     margin-bottom: 15px;
 }
 .bloco p{
-    color: #1b3d51;
-    font-size: 1em;
+    color: #8b9093;
+    font-size: 1.2em;
 
 }
 
@@ -415,6 +423,7 @@ figure.imagem-icons img{
     margin-top: 120px;
     line-height: 1.4em;
     margin-bottom: 80px;
+    color: #1b3d51;
 }
 
 
@@ -461,7 +470,7 @@ figure.imagem-icons img{
     display: inline-block;
 }
 
-.chamine{
+.bloco2 .chamine{
     position: absolute;
     width: 12%;
     height: 100%;
@@ -469,13 +478,29 @@ figure.imagem-icons img{
     left: 75%;
     
 }
+.bloco1 .chamine{
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    top: 6%;
+    left: 67%;
+    
+}
 
-.engrenagem{
+.bloco2 .engrenagem{
     position: absolute;
     width: 7.8%;
     height: 100%;
     top: 50%;
     left: 73%;
+    
+}
+.bloco1 .engrenagem{
+    position: absolute;
+    width: 7.8%;
+    height: 100%;
+    top: 16%;
+    left: 65.5%;
     
 }
 
@@ -486,65 +511,76 @@ figure.imagem-icons img{
 
 }
 
-.engrenagem .grande{
-    width: 60%;
-    top: 8%;
-    box-shadow: none;
+.engrenagem .grande, .engrenagem .medio, .engrenagem .pequena{
     -webkit-animation-name: rodaroda;
     -webkit-animation-duration: 3s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
-    /* -webkit-animation-direction: alternate; */
+    box-shadow: none;
+
 }
 
-.engrenagem .medio{
+.bloco2 .engrenagem .grande{
+    width: 60%;
+    top: 8%;  
+}
+
+.bloco2 .engrenagem .medio{
     width: 50%;
     top: 14%;
     left:10%;
-    box-shadow: none;
-    -webkit-animation-name: rodaroda;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    
 }
 
-.engrenagem .pequena{
+.bloco2 .engrenagem .pequena{
     width: 30%;
     top: 13%;
     left:55%;
-    box-shadow: none;
-    -webkit-animation-name: rodaroda;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
 }
+
+.bloco1 .engrenagem .grande{
+    width: 48%;
+    top: 9%;  
+}
+
+.bloco1 .engrenagem .medio{
+    width: 40%;
+    top: 14%;
+    left:10%;
+}
+
+.bloco1 .engrenagem .pequena{
+    width: 28%;
+    top: 13%;
+    left:45%;
+}
+
+
 .fumaca-longa
 {
     animation-name: pulse;
-    animation-duration: .8s;
     animation-timing-function: linear;
     animation-delay: 0;
     animation-iteration-count: infinite;
+    position: absolute;
     background-color: #fff;
+    animation-duration: .8s;
     border-radius: 50%;
     margin-top: 20%;
     font: 0/0 serif;
-    position: absolute;
 }
 .fumaca-media
 {
     animation-name: pulse;
-    animation-duration: 1s;
     animation-timing-function: linear;
     animation-delay: 0;
     animation-iteration-count: infinite;
     background-color: #fff;
+    position: absolute;
+    animation-duration: 1s;
     border-radius: 50%;
     margin-top: 15%;
     margin-left: 10%;
     font: 0/0 serif;
-    position: absolute;
 }
 .fumaca-curta
 {
@@ -658,6 +694,18 @@ section.conteudo, footer.conteudo{
     border-color:  transparent  transparent transparent #000;
     left: -40px;
     top:25%;
+}
+.navio{
+    position: absolute;
+    top:65%;
+    left: 75%;
+    width: 40%;
+
+}
+
+.navio-anda{
+    left: 50%;
+    -webkit-transition: left 4s;
 }
 
 /* -------------------------------------Animação ----------------------------------------------------*/

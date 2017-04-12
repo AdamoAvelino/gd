@@ -14,14 +14,16 @@
 <section class="bloco1 bloco clearfix">
   <article class='left maior'>
     <figure class="relative" id='container1'>
-      <img src='imagens/bloco1.png' class='single '>
+      <img src='imagens/f3.png' class='single '>
       
       <div class='engrenagem'>
         <img src='imagens/grande.png' class='grande'>
         <img src='imagens/medio.png' class='medio'>
         <img src='imagens/pequena.png' class='pequena'>
       </div>
-
+      <div class='navio' id='navio'> 
+        <img src='imagens/navio.png' style="box-shadow: none">
+      </div>
       <div class='chamine'>
         <span class="fumaca-longa"></span>              
         <span class="fumaca-media"></span>              

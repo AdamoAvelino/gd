@@ -20,8 +20,8 @@
 
 		<p>Desenvolvemos, ainda, uma análise detalhada das propriedades rurais de nossos clientes e fornecedores, a Análise F-AGRO, que nos auxilia na tomada de decisões comerciais com maior segurança. Essa análise traz informações sobre conformidade relacionadas a Áreas Embargadas (IBAMA), Lista de desmatamento Ilegal (LDI), Moratória da Soja e Trabalho Escravo.</p>
 
-		<figure class='img-central'>
-			<img src="imagens/icons_fiagril.png" alt="">
+		<figure style='text-align:center'>
+			<img src="imagens/biodiversidade_03.png" alt="">
 		</figure>
 	</article>
 	<article>

@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var tooltip;
-  var tooltips_ativar = document.getElementsByClassName('tooltip_invisivel');
-  var numero_tooltips = tooltips_ativar.length;
+  // var tooltips_ativar = document.getElementsByClassName('tooltip_invisivel');
+  // var numero_tooltips = tooltips_ativar.length;
 
 //Menu Responsivo
   $('.toggle-nav').click(function (e) {
@@ -36,6 +36,9 @@ $('.bloco').each(function(i){
    article.children().attr('style', 'margin-top:'+altura_centro+'px');
  });
 
+$('#navio').addClass('navio-anda');
+  
+
 //=============================================
 
 /*----------------Aplica entradas de animadas em elementos que contem classes animacao acompnhado de data-animacao
@@ -60,24 +63,24 @@ $('.bloco').each(function(i){
 
   });
 
-  for (var i = 0; i < numero_tooltips; i++) {
+  // for (var i = 0; i < numero_tooltips; i++) {
 
-    tooltip_data_ativo = tooltips_ativar[i].getAttribute('data-ativo').split('_');
+  //   tooltip_data_ativo = tooltips_ativar[i].getAttribute('data-ativo').split('_');
 
-    elemento_more = tooltip_data_ativo[0];
+  //   elemento_more = tooltip_data_ativo[0];
     
-    document.getElementById(elemento_more).onmouseover = function () {
+  //   document.getElementById(elemento_more).onmouseover = function () {
 
-      var tooltip_id = "div_" + this.getAttribute('id').toLowerCase();
-      mostra_posicao(tooltip_id, this.getAttribute('id'));
-    };
+  //     var tooltip_id = "div_" + this.getAttribute('id').toLowerCase();
+  //     mostra_posicao(tooltip_id, this.getAttribute('id'));
+  //   };
 
-    document.getElementById(elemento_more).onmouseleave = function () {
-      var tooltip_id = "div_" + this.getAttribute('id').toLowerCase();
-      esconde_elemento(tooltip_id);
-    };
+  //   document.getElementById(elemento_more).onmouseleave = function () {
+  //     var tooltip_id = "div_" + this.getAttribute('id').toLowerCase();
+  //     esconde_elemento(tooltip_id);
+  //   };
 
-  }
+  // }
 
 });
 
