@@ -2,6 +2,14 @@
 <section class='slider'>
 	<h2>TREIUNAMENTO E EDUCAÇÃO</h2>
 	<img src="imagens/capa_educacao.png" style='width:100%'>
+	<div class="maior-h">
+		<P>GRI</P>
+		<P>G4-9</P>
+		<P>G4-10</P>
+		<P>G4-11</P>
+		<P>G4-13</P>
+		<P>G4-LA1</P>
+	</div>
 </section>
 </header>
 </section>
@@ -31,13 +39,13 @@
 		<p>Não medimos esforços para reter nossos profissionais mais qualificados e os novos talentos que se desenvolvem no decorrer do ano. </p>
 
 		<p>Em sinergia com a importância da valorização das condições de emprego e da sustentabilidade da força de trabalho, somos signatários dos Dez Princípios do Pacto Global das Nações Unidas - 2000 e acreditamos que o setor privado é essencial para os países alcançarem os Objetivos de Desenvolvimento Sustentável.</p>
-		<figure>
+		<figure class="teaser-central">
 			<img src="imagens/icon1_emprego" alt="">
 		</figure>
 
 		<p>Os Objetivos de Desenvolvimento Sustentável (ODS) é uma agenda mundial composta por 17 objetivos e 169 metas a serem atingidas até 2030. A Fiagril participa e dissemina os ODS na empresa, sociedade e com seus stakeholders.</p>
 		
-		<figure>
+		<figure class="teaser-central">
 			<img src="imagens/icon2_emprego" alt="">
 		</figure>
 	</article>

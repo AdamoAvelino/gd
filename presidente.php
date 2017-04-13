@@ -2,12 +2,16 @@
 <section class='slider'>
 	<h2>MENSAGEM DO PRESIDENTE</h2>
 	<img src="imagens/capa_presidente.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>G4-1</p>
+	</div>
 	<img src="imagens/perfil_presidente.png" class='perfil'>
 </section>
 </header>
 </section>
 <section class="bloco artigo">
-	<article class='clearfix'>
+	<article class='clearfix baixo-perfil'>
 		<p>Com mais de duas décadas de contribuição para o ramo alimentício, para a economia e para o desenvolvimento sustentável, a Fiagril firmou-se como referência no agronegócio graças ao empreendedorismo, credibilidade, transparência e respeito aos colaboradores, clientes, parceiros de negócios e sociedade.</p>
 
 		<p>Esta cultura traduzida em nossa missão, visão e valores, norteada pelo nosso código de ética, é assimilada no dia a dia por nossos mais de 500 colaboradores, expressa o próprio DNA corporativo, se fazendo presente em todas as atividades desenvolvidas em nossas unidades operacionais. </p>

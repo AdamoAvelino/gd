@@ -2,6 +2,10 @@
 <section class='slider'>
 	<h2>ENERGIA</h2>
 	<img src="imagens/capa_energia.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>G4-EN3 EN5</p>
+	</div>
 </section>
 </header>
 </section>
@@ -34,7 +38,7 @@
 				<p>Em conjunto com a Empresa Brasileira de Pesquisa Agropecuária - EMBRAPA, realizamos pesquisas para a utilização de Capim Elefante e Sorgo Biomassa para identificarmos alternativas para a queima e geração de vapor, com o objetivo de reduzir o consumo de lenha. O resultado pretendido é uma avaliação de eficácia por uma nova alternativa na demanda de biomassa vegetal que possa ser empregado futuramente em novas plantas da empresa.</p>
 
 				<p>As análises em laboratório estão inspiradoras e os resultados obtidos do poder calorífico superior e inferior da biomassa deste sorgo, em base seca, tem-se verificado em torno de 4.300 Kcal/Kg de massa seca e 3.800 Kcal/kg de massa seca. Acreditamos ser uma oportunidade de biomassa energética competitiva pelo fato da sua produção ser anual e com volumes por hectares atrativos. Para nós, investir em pesquisa transfere conhecimento e inova com competitividade e sustentabilidade.</p>
-				<figure>
+				<figure class='teaser-central'>
 					<img src="imagens/teaser_energia" alt="" style="box-shadow: none;">
 				</figure>
 			</div>

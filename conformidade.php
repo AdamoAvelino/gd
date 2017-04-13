@@ -2,6 +2,10 @@
 <section class='slider'>
 	<h2>CONFORMIDADE</h2>
 	<img src="imagens/capa_conformidade.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>G4-EN29</p>
+	</div>
 </section>
 </header>
 </section>

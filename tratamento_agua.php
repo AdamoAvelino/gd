@@ -2,6 +2,10 @@
 <section class='slider'>
 	<h2>TRATAMENTO DE ÁGUA</h2>
 	<img src="imagens/capa_tratamento_agua.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>EN-8</p>
+	</div>
 </section>
 </header>
 </section>

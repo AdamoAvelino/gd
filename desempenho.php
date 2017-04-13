@@ -2,6 +2,12 @@
 <section class='slider'>
 	<h2>DESEMPENHO</h2>
 	<img src="imagens/capa_desempenho.png" style='width:100%'>
+	<div class="medio-h">
+		<p>GRI</p>
+		<p>G4-9</p>
+		<p>G4-17</p>
+		<p>G4 EC-1</p>
+	</div>
 </section>
 </header>
 </section>

@@ -2,6 +2,11 @@
 <section class='slider'>
 	<h2>COMUNIDADE</h2>
 	<img src="imagens/capa_comunidade.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>G4-S01</p>
+	</div>
+
 </section>
 </header>
 </section>
@@ -47,7 +52,7 @@
 					<h3>Jardim Especial</h3>
 				</header>
 				<p>Parceria da APAE de Lucas do Rio Verde com a Fiagril que teve início em 2014.  Continuamos com a atuação em 2015 visando a inserção dos alunos especiais no meio social através do trabalho diário de jardinagem, exercendo cidadania, gerando realização profissional e, consequentemente, uma visão positiva de si mesmo.</p>
-				<figure>
+				<figure class='teaser-central'>
 					<img src="imagens/teaser_comunidade" alt="" style="box-shadow: none;">
 				</figure>
 

@@ -2,6 +2,11 @@
 <section class='slider'>
 	<h2>BIODIVERSIDADE</h2>
 	<img src="imagens/capa_biodiversidade.png" style='width:100%'>
+	<div class="medio-h">
+		<p>GRI</p>
+		<p>G4-14</p>
+		<p>G4-EN12</p>
+	</div>
 </section>
 </header>
 </section>

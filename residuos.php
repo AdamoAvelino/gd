@@ -2,6 +2,10 @@
 <section class='slider'>
 	<h2>RESÍDUOS</h2>
 	<img src="imagens/capa_residuos.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>G4-EN2</p>
+	</div>
 </section>
 </header>
 </section>

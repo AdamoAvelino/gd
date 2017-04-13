@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel='stylesheet' href='css/style.css'>
-  <link rel='stylesheet' href='css/menu_responsivo.css'>
+  <link rel='stylesheet' href='css/menu_responsivo.css?v=2'>
   <link rel='stylesheet' href='css/font-awesome.css'>
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/header.js"></script>
 </head>
 <body>
   <div id='container'>
@@ -19,10 +20,10 @@
             <article class='left'>Relatório de Sustentabilidade de 2015</article>
             <nav class='right'>
               <ul>
-                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
-                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                <li><a href='materiais.php'><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><a href='gestao_ambiental.php'><i class="fa fa-youtube" aria-hidden="true"></i></li>
+                <li><a href='compromisso.php'><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><a href='presidente.php'><i class="fa fa-linkedin" aria-hidden="true"></i></li>
               </ul>
             </nav>
           </section>
@@ -42,8 +43,6 @@
               <li><a href="download.php">DOWNLOAD</a></li>
             </ul>
             <a class="toggle-nav" href="#">&#9776;</a>
-
-
             <!--margen-botton = 80px--> 
           </nav>
           <span class="brand_responsive">

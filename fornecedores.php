@@ -2,6 +2,11 @@
 <section class='slider'>
 	<h2>FORNECEDORES</h2>
 	<img src="imagens/capa_fornecedores.png" style='width:100%'>
+	<div class="medio-h">
+		<p>GRI</p>
+		<p>G4-12</p>
+		<p>G4 EN-33</p>
+	</div>
 </section>
 </header>
 </section>
@@ -25,7 +30,7 @@
 		<div class="clearfix">
 			<figure class="left icones"><img alt=""></figure>
 			<div class="left texto">
-				<figure>
+				<figure class='teaser-central'>
 					<img src="imagens/teaser_fornecedores" alt="" style="box-shadow: none;">
 				</figure>
 			</div>

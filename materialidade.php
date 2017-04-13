@@ -8,7 +8,7 @@
 <section class="bloco">
 	<article class="lista-simples">
 		<header>
-			<h3>A FIAGRIL +</h3>
+			<h3 class="vertical">A FIAGRIL +</h3>
 		</header>
 		<ul>
 			<li>Emissão de Gases</li>
@@ -18,7 +18,7 @@
 			<li>Produtos e Serviços</li>
 		</ul>
 		<header>
-			<h3>RESPONSABILIDADE E PARCERIAS LOCAIS +</h3>
+			<h3 class="vertical">RESPONSABILIDADE E PARCERIAS LOCAIS +</h3>
 		</header>
 		<ul>
 			<li>Comunidades Locais</li>
@@ -27,7 +27,7 @@
 			<li>Resíduos</li>
 		</ul>
 		<header>
-			<h3>NOSSA ESTRUTURA +</h3>
+			<h3 class="vertical">NOSSA ESTRUTURA +</h3>
 		</header>
 		<ul>
 			<li>Desempenho</li>

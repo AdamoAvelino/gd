@@ -2,6 +2,10 @@
 <section class='slider'>
 	<h2>SAÚDE E SEGURANÇA NO TRABALHO</h2>
 	<img src="imagens/capa_saude.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>G4-LA5</p>
+	</div>
 </section>
 </header>
 </section>
@@ -20,7 +24,7 @@
 		<p>Constituímos a Comissão Interna de Prevenção de Acidentes (CIPA) e 100 % de nossos colaboradores são representados pela CIPA, com parte dos membros definidos por eleição pelos funcionários. Integram a CIPA colaboradores de diferentes níveis hierárquicos.</p>
 
 		<p>Oferecemos assistência médica e odontológica a todos os colaboradores sem nenhum custo ou desconto em folha de pagamento.</p>
-		<figure>
+		<figure class='teaser-central'>
 			<img src="imagens/teaser_saude.png" alt="">
 		</figure>
 	</article>

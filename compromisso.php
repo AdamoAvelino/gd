@@ -2,6 +2,10 @@
 <section class='slider'>
 	<h2>COMPROMISSOS VOLUNTÁRIOS</h2>
 	<img src="imagens/capa_compromisso.png" style='width:100%'>
+	<div class="menor-h">
+		<p>GRI</p>
+		<p>G4-15</p>
+	</div>
 </section>
 </header>
 </section>

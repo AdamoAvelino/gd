@@ -2,6 +2,12 @@
 <section class='slider'>
 	<h2>Serviços</h2>
 	<img src="imagens/capa_servicos.png" style='width:100%'>
+	<div class="medio-h">
+		<p>GRI</p>
+		<p>G4-4</p>
+		<p>G4-8</p>
+		<p>G4-16</p>
+	</div>
 </section>
 </header>
 </section>

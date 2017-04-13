@@ -1,7 +1,12 @@
 <?php include "header.php" ?>
 <section class='slider'>
-	<h2>TREIUNAMENTO E EDUCAÇÃO</h2>
+	<h2>TREINAMENTO E EDUCAÇÃO</h2>
 	<img src="imagens/capa_educacao.png" style='width:100%'>
+	<div class="medio-h">
+		<p>GRI</p>
+		<p>G4-LA9</p>
+		<p>LA11</p>
+	</div>
 </section>
 </header>
 </section>
@@ -18,7 +23,7 @@
 		<P>Após a identificação, o Programa de Líderes passa para a etapa de treinamento em liderança. Nesse momento, todos os líderes identificados supervisores, coordenadores, gerentes e diretores  dão início ao desenvolvimento de liderança, buscando identificar e entender seus desafios e qual será seu papel para superá-los.</P>
 
 		<P>Alinhados com nosso princípio de valorização do capital humano na empresa, avaliamos também o desempenho de cada funcionário. Acreditamos que esse feedback fortalece o relacionamento do colaborador com seus superiores e nos permite monitorar, manter e avançar no desenvolvimento das habilidades de cada profissional.</P>
-		<figure class="">
+		<figure class="teaser-central">
 			<img src="imagens/icon_educacao.png" alt="">
 		</figure>
 		

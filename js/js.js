@@ -3,13 +3,7 @@ $(document).ready(function () {
   // var tooltips_ativar = document.getElementsByClassName('tooltip_invisivel');
   // var numero_tooltips = tooltips_ativar.length;
 
-//Menu Responsivo
-  $('.toggle-nav').click(function (e) {
-    $(this).toggleClass('active');
-    $('.menu ul').toggleClass('active');
 
-    e.preventDefault();
-  });
   
   
 //============================================
@@ -25,7 +19,7 @@ $('.bloco').each(function(i){
      article = $(this).children().next();
    }else{
      article = $(this).children('.menor');
-      console.log(article.children());
+      // console.log(article.children());
    }
    
    

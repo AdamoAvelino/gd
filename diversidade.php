@@ -2,6 +2,11 @@
 <section class='slider'>
 	<h2>DIVERSIDADE</h2>
 	<img src="imagens/capa_diversidade.png" style='width:100%'>
+	<div class="medio-h">
+		<p>GRI</p>
+		<p>G4-10</p>
+		<p>G4-LA12</p>
+	</div>
 </section>
 </header>
 </section>

@@ -2,6 +2,13 @@
 <section class='slider'>
 	<h2>EMISSÕES</h2>
 	<img src="imagens/capa_sustentabilidade.png" style='width:100%'>
+	<div class="medio-h">
+		<p>GRI</p>
+		<p>G4-EN15</p>
+		<p>G4-EN16</p>
+		<p>G4-EN17</p>
+		<p>G4-EN18</p>
+	</div>
 </section>
 </header>
 </section>
@@ -9,7 +16,7 @@
 	<article>
 		<p>Realizamos pela primeira vez em 2013, ainda internamente, nosso Inventário de Emissões de GEE do ano de 2011. Os resultados foram importantes para um primeiro entendimento do nosso perfil de emissões. Depois dessa primeira análise, com a contratação de uma empresa de consultoria especializada, sistematizamos o levantamento das informações e elaboramos os inventários dos anos de 2013, 2014 e 2015 para mapear as atividades com maior índice de emissões de GEE, e para, futuramente, viabilizar a implantação de estratégias para redução das emissões.</p>
 	</article>
-	<figure>
+	<figure class="tabela">
 		<img src="imagens/tabela1_sustentabilidade.png" alt="">
 		<img src="imagens/tabela2_sustentabilidade.png" alt="">
 		<img src="imagens/tabela3_sustentabilidade.png" alt="">

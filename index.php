@@ -14,7 +14,8 @@
 <section class="bloco1 bloco clearfix">
   <article class='left maior'>
     <figure class="relative" id='container1'>
-      <img src='imagens/f3.png' class='single '>
+      <img src='imagens/f3.png' class='single'>
+      <img src="imagens/bloco1.png" class='estatico'>
       
       <div class='engrenagem'>
         <img src='imagens/grande.png' class='grande'>
@@ -83,8 +84,6 @@
     </figure>
   </article>
   <article class='left menor'>
-  
-    
     <header class=''>
       <h2>A Fiagril no Mundo</h2>
       <p>Conduzir nossos negócios de maneira sustentável signiﬁca para nós gerar valor para todos os 
@@ -107,13 +106,13 @@
   </article>
   <article class='left maior'>
     <figure class="relative" id='container2'>
-      <img src='imagens/bloco2v2.png' class='dobro'>
+      <img src='imagens/bloco2v2.png' class='dobro single'>
+      <img src="imagens/bloco2.jpg" class='estatico'>
       <div class='engrenagem'>
         <img src='imagens/grande.png' class='grande'>
         <img src='imagens/medio.png' class='medio'>
         <img src='imagens/pequena.png' class='pequena'>
       </div>
-
       <div class='chamine'>
         <span class="fumaca-longa"></span>              
         <span class="fumaca-media"></span>              
@@ -129,7 +128,6 @@
           </ul>
         </li>
       </ul>
-
       <ul class="container-tooltip">
         <li class="more comun">
           <ul class="tooltip_invisivel">
@@ -149,7 +147,6 @@
           </ul>
         </li>
       </ul>
-
       <ul class="container-tooltip">
         <li class="more resid">
           <ul class="tooltip_invisivel">
@@ -159,8 +156,6 @@
           </ul>
         </li>
       </ul>
-
-
     </figure>
   </article>
 </section>
@@ -244,6 +239,5 @@
 </section>
 
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src='js/js.js'></script>
 <?php include 'footer.php' ?>
