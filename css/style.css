@@ -83,6 +83,7 @@ nav ul li, .left{
 nav ul li{
     list-style: none;
     margin-left: 20px;
+    position: relative;
 }
 nav.menu ul li a{
     text-decoration: none;
@@ -98,8 +99,56 @@ nav.menu ul{
     margin: 0 auto;
 
 }
-nav.menu ul li:hover a{
+nav.menu > ul > li:hover > a{
     color: red;
+}
+
+nav.menu > ul > li:hover > ul{
+
+    opacity: 1;
+    display: inline-block;
+    transition: all 1s;
+}
+
+nav.menu ul li ul{
+
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    padding: 20px 0;
+    opacity: 0;
+    display: none;
+}
+
+nav.menu ul li ul li{
+    background: #003f19;
+    font-size: .8em;
+    padding: 10px;
+    margin-left: 0px;
+    width: 200%;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+
+nav.menu ul li ul li:first-child{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+nav.menu ul li ul li:last-child{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+nav.menu ul li ul li a{
+    color: #fff;
+}
+
+nav.menu > ul > li > ul > li:hover{
+    background: #c50509;
+    color: #fff;
+    transition: background .5s;
 }
 
 .logo{
@@ -112,15 +161,17 @@ nav.menu ul li:hover a{
 }
 .slider > p, .slider > h2 {
     position: absolute;
-    left: 5%;
+    left: 0;
     top: 18%;
-    width: 50%;
+    width: 40%;
     font-size: 1.2em;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
 }
 .slider > h2{
+    left: 5%;
     font-size: 2.8em;
+    width: 50%;
     top: 48%;
 }
 
@@ -133,32 +184,32 @@ nav.menu ul li:hover a{
     text-shadow: 1px 1px 1px #000;
 }
 .slider > div.maior-h{
-/*.slider > div.maior-h{*/
-    bottom: 8%;
-}
-.slider > div.menor-h{
-    bottom: 30%;
-}
+    /*.slider > div.maior-h{*/
+        bottom: 8%;
+    }
+    .slider > div.menor-h{
+        bottom: 30%;
+    }
 
-.slider > div.medio-h{
-    bottom: 20%;
-}
+    .slider > div.medio-h{
+        bottom: 20%;
+    }
 
-.perfil{
-    position: absolute;
-    top:75%;
-    left: 5%;
-}
+    .perfil{
+        position: absolute;
+        top:75%;
+        left: 5%;
+    }
 
 
-.toggle-nav, .brand_responsive{
-  display:none;
-}
-.brand img{
-  width:80%;
-}
+    .toggle-nav, .brand_responsive{
+      display:none;
+  }
+  .brand img{
+      width:80%;
+  }
 
-.verde{
+  .verde{
     background: #003f19;
     color: #fff;
 }
@@ -282,8 +333,8 @@ figure.imagem-icons img{
 }
 
 .educacao{
- left:93%;
- top: 72%; 
+   left:93%;
+   top: 72%; 
 }
 
 .emprego{
@@ -588,11 +639,8 @@ figure.imagem-icons img{
 
 .fumaca-longa
 {
-    -moz-animation-name: pulse;
-    -moz-animation-timing-function: linear;
-    -moz-animation-delay: 0;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: .8s;
+
+    animation-duration: .8s;
     animation-name: pulse;
     animation-timing-function: linear;
     animation-delay: 0;
@@ -611,13 +659,6 @@ figure.imagem-icons img{
     animation-delay: 0;
     animation-iteration-count: infinite;
     animation-duration: 1s;
-
-    -moz-animation-name: pulse;
-    -moz-animation-timing-function: linear;
-    -moz-animation-delay: 0;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-duration: 1s;
-    
     background-color: #fff;
     position: absolute;
     border-radius: 50%;
@@ -625,18 +666,14 @@ figure.imagem-icons img{
     margin-left: 10%;
     font: 0/0 serif;
 }
+
 .fumaca-curta
 {
     animation-name: pulse;
     animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-delay: 0;
-    
-    -moz-animation-name: pulse;
-    -moz-animation-duration: 1.5s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-delay: 0;
-    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     
     background-color: #fff;
     border-radius: 50%;
@@ -761,8 +798,17 @@ section.conteudo, footer.conteudo{
     -moz-transition: left 4s;
 }
 
-/* -------------------------------------Animação ----------------------------------------------------*/
 
+.toggle-nav, .brand_responsive{
+  display:none;
+}
+
+.brand img{
+  width:80%;
+}
+
+
+/* -------------------------------------Animação ---------------------------------------------------- */
 
 .easy{
     margin-left: 100%;
@@ -778,10 +824,11 @@ section.conteudo, footer.conteudo{
 
 .rotacao_direita_show{
     margin-left: 0;
+    opacity: 1;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
-    opacity: 1;
     -moz-transition: margin-left 1s, transform 1s, opacity 1s;
+    -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
 
 }
 
@@ -794,10 +841,10 @@ section.conteudo, footer.conteudo{
 
 .rotacao_esquerda_show{
     margin-left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
     opacity: 1;
+    -webkit-transform: rotate(0deg);
     -webkit-transition: margin-left 1s, transform 1s, opacity 1s;
+    -moz-transform: rotate(0deg);
     -moz-transition: margin-left 1s, transform 1s, opacity 1s;
 
 }
