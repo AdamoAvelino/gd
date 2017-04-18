@@ -29,7 +29,7 @@
 </section>
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/selo1_residuos.png" alt="">
 			</figure>
@@ -48,7 +48,7 @@
 
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/selo2_residuos.png" alt="">
 			</figure>

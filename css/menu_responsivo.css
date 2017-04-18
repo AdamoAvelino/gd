@@ -1,7 +1,7 @@
 
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px){
 
   .maior, .menor{
     width: 100%;
@@ -149,7 +149,7 @@ nav.menu ul li ul li{
     padding: 3% 6%;
   }
 
-  .slider > p.teaser{
+  .slider > p.teaser-text{
     font-size: 1em;
     width: 60%;
     left: 0%;
@@ -174,7 +174,32 @@ nav.menu ul li ul li{
 }
 
 
+/*======================Até 640 Pixel===================================================*/
 
+@media screen and (max-width: 640px){
+  .slider > h2{
+    font-size: 1.5em;
+    top: 30%;
+  }
+  .lateral-componente > .left > img{
+    width: 100%;
+  }
+  .lateral-componente > figure.left{
+    display: inline-block;
+  }
+  .lateral-componente figure.teaser-central{
+    width: 100%;
+  }
+
+  .slider > div{
+    font-size: 1em;
+  }
+  p.teaser-text{
+    margin-left: 20px;
+    font-size: .9em !important;
+    margin-top:10px;
+  }
+}
 
 /*======================de portrait até landscape ipad================================== */
 
@@ -206,7 +231,7 @@ nav.menu ul li ul li{
     padding: 2% 2%;
   }
 
-  .slider > p.teaser{
+  .slider > p.teaser-text{
     font-size: 1em;
     width: 50%;
     left: 0

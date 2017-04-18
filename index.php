@@ -2,7 +2,7 @@
 
 <!--height = 330px-->
 <section class='slider'>
-  <p class='teaser'>
+  <p class='teaser-text'>
     Apresentaremos a seguir o panorama da Fiagril, alguns de nossos resultados em 2015 sobre os temas considerados mais relevantes para a empresa e quais são nossos objetivos e metas para seguirmos evoluindo e agregando valor aos nossos negócios em todas as esferas. 
   </p>
   <img src="imagens/home_fiagril.png" style='width:100%'>
@@ -73,8 +73,8 @@
 
       <ul class="container-tooltip">
         <li class="more energ">
-          <ul class="tooltip_invisivel_right">
-            <li class="tooltip_small_right">
+          <ul class="tooltip_invisivel">
+            <li class="tooltip_small_left">
               <a href="energia.php"><span>Energia</span></a>
             </li>
           </ul>
@@ -171,7 +171,7 @@
       <ul class='container-tootip'>
         <li class='more desempenho'>
           <ul class="tooltip_invisivel">
-            <li class=" tooltip_big_left" id='div_desempenho'>
+            <li class=" tooltip_small_left" id='div_desempenho'>
               <a href="desempenho.php"> <span>Desempenho</span></a>
             </li>
           </ul>
@@ -180,7 +180,7 @@
       <ul class="container-tooltip">
         <li class="more etica">
           <ul class="tooltip_invisivel">
-            <li class="tooltip_big_left" id="div_etica">
+            <li class="tooltip_small_left" id="div_etica">
               <a href="etica.php"><span>Etica</span></li></a>
           </ul>
         </li>
@@ -189,7 +189,7 @@
       <ul class="container-tooltip">
         <li class="more educacao">
           <ul class='tooltip_invisivel'>
-            <li class=" tooltip_big_left" id="div_educacao">
+            <li class=" tooltip_small_left" id="div_educacao">
               <a href="educacao.php"><span>Educação</span></a>
             </li>
           </ul>
@@ -198,7 +198,7 @@
       <ul class="container-tooltip">
         <li class="more emprego">
           <ul class='tooltip_invisivel'>
-            <li class=" tooltip_big_left" id="div_emprego">
+            <li class=" tooltip_small_left" id="div_emprego">
               <a href='emprego.php'><span>Emprego</span></a>
             </li>
           </ul>
@@ -207,8 +207,8 @@
 
       <ul class="container-tooltip">
         <li class="more diversidade">
-          <ul class="tooltip_invisivel_right">
-            <li class="tooltip_big_right" id="div_diversidade">
+          <ul class="tooltip_invisivel">
+            <li class="tooltip_small_left" id="div_diversidade">
               <a href='diversidade.php'><span>Diversidade</span></a>
             </li>
           </ul>
@@ -217,8 +217,8 @@
 
       <ul >
         <li class="more saude">
-          <ul class="tooltip_invisivel_right">
-            <li class="tooltip_big_right" id="div_saude">
+          <ul class="tooltip_invisivel">
+            <li class="tooltip_small_left" id="div_saude">
               <a href='saude.php'><span>Saúde</span></a>
             </li>
           </ul>
@@ -239,5 +239,5 @@
 </section>
 
 </div>
-<script type="text/javascript" src='js/js.js'></script>
+<script type="text/javascript" src='js/js.js?v1'></script>
 <?php include 'footer.php' ?>

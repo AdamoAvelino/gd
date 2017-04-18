@@ -27,7 +27,7 @@
 </section>
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/selo1_comunidade.png" alt="">
 			</figure>
@@ -43,7 +43,7 @@
 
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/selo2_comunidade.png" alt="">
 			</figure>
@@ -66,8 +66,8 @@
 </section>
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
-			<figure class="left icones">
+		<div class="clearfix lateral-componente">
+			<figure class="left icones ">
 				<img src="imagens/selo3_comunidade.png" alt="">
 			</figure>
 			<div class="left texto">

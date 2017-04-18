@@ -12,7 +12,7 @@
 
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/icon1_tratamento_agua.png" alt="">
 			</figure>
@@ -33,7 +33,7 @@
 
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/icon2_tratamento_agua.png" alt="">
 			</figure>

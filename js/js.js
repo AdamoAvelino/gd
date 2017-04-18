@@ -101,6 +101,7 @@ function mostra_posicao(tooltip_id, elemento_more) {
   var altura_elemento = document.getElementById(tooltip_id).offsetHeight;
   var largura_elemento = document.getElementById(tooltip_id).offsetWidth;
 
+  alert('Qualque cdois');
   if (tooltip_data_ativo[2] == 'left') {
 
     var left = (pos.left - pos_cont.left) + (largura_elemento / 6);
@@ -110,14 +111,14 @@ function mostra_posicao(tooltip_id, elemento_more) {
     var top = (pos.top - pos_cont.top - altura_elemento);
   } else {
     var left = (pos.left - pos_cont.left - largura_elemento);
-    var top = (pos.top - pos_cont.top - altura_elemento);
+    var top = (pos.top - pos_cont.top - altura_elemento - (altura_elemento / 2));
 
   }
   /*console.log('Posição top do elemento ḿore: = '+pos.top);*/
   /*console.log('Posição top do elemento Container: = '+pos_cont.top);*/
   /*console.log('Altura do elemento Toolltip:  = '+altura_elemento);*/
 
-  var style = 'position: absolute; top:' + top + 'px; left:' + left + 'px;';
+  // var style = 'position: absolute; top:' + top + 'px; left:' + left + 'px;';
 
   document.getElementById(tooltip_id).setAttribute('style', style);
 }

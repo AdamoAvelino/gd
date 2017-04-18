@@ -35,7 +35,7 @@
 				</figure>
 			</div>
 		</div>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/icone_fornecedores.png" alt="">
 			</figure>

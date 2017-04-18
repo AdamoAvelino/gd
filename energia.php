@@ -25,7 +25,7 @@
 </section>
 <section class="bloco artigo">
 	<article>
-		<div class="clearfix">
+		<div class="clearfix lateral-componente">
 			<figure class="left icones">
 				<img src="imagens/logo_energia.png" alt="">
 			</figure>
