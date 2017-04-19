@@ -16,12 +16,14 @@
     <div class='content'>
       <section>
         <header>
-          <section class='verde conteudo clearfix'>
-            <article class='left'>Relatório de Sustentabilidade de 2015</article>
+          <section class='verde conteudo clearfix area-extrema'>
+            <article class='left'>
+              <p>Relatório de Sustentabilidade de 2015</p>
+            </article>
             <nav class='right'>
 
               <ul>
-                <li><a href='materiais.php'><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
                 <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
                 <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
                 <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
@@ -33,13 +35,15 @@
             <a class="toggle-nav" href="#">&#9776;</a>
             <ul class="clearfix active">
               <li> <a href="./">HOME</a></li>
-              <li><a href="fiagril.php">A FIAGRIL</a>
-                  <ul>
+              <li><a>A FIAGRIL</a>
+                  <ul class="sub-menu">
+                    <li><a href='fiagril.php'>FIAGRIL</a></li>
                     <li><a href='compromisso.php'>COMPROMISSOS VOLUNTÁRIOS</a></li>
                   </ul>   
               </li>
-              <li><a href="governanca.php">GOVERNANÇA</a>
-                   <ul>
+              <li><a>GOVERNANÇA</a>
+                   <ul class="sub-menu">
+                     <li><a href="governanca.php">GOVERNANÇA</a></li>
                      <li><a href="presidente.php">MENSAGEM DO PRESIDENTE</a></li>
                      <li><a href="gestao_ambiental.php">SISTEMA DE GESTÃO AMBIENTAL</a></li>
                    </ul> 

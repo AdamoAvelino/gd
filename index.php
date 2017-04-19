@@ -181,7 +181,7 @@
         <li class="more etica">
           <ul class="tooltip_invisivel">
             <li class="tooltip_small_left" id="div_etica">
-              <a href="etica.php"><span>Etica</span></li></a>
+              <a href="diversidade.php"><span>Diversidade</span></li></a>
           </ul>
         </li>
       </ul>
@@ -209,7 +209,7 @@
         <li class="more diversidade">
           <ul class="tooltip_invisivel">
             <li class="tooltip_small_left" id="div_diversidade">
-              <a href='diversidade.php'><span>Diversidade</span></a>
+              <a href='materiais.php'><span>Meteriais</span></a>
             </li>
           </ul>
         </li>

@@ -103,22 +103,23 @@ nav.menu > ul > li:hover > a{
     color: red;
 }
 
-nav.menu > ul > li:hover > ul{
+ nav.menu > ul > li:hover > ul{
 
     opacity: 1;
     display: inline-block;
     transition: all 1s;
-}
+} 
 
 nav.menu ul li ul{
 
     position: absolute;
     left: 0;
     z-index: 10;
-    padding: 20px 0;
+    padding: 40px 0;
     opacity: 0;
     display: none;
 }
+
 
 nav.menu ul li ul li{
     background: #003f19;
@@ -161,8 +162,8 @@ nav.menu > ul > li > ul > li:hover{
 }
 .slider > p, .slider > h2 {
     position: absolute;
-    left: 0;
-    top: 18%;
+    left: 5%;
+    top: 25%;
     width: 40%;
     font-size: 1.2em;
     color: #fff;
@@ -425,11 +426,11 @@ figure.imagem-icons img{
     border-radius: 5px;
     position: relative;
     box-shadow: 2px 2px 15px rgba(0,0,0,.4);
-
-    /*background-image: url(../imagens/tooltip_small_left.png);*/
-    
 }
 
+.tooltip_small_left a{
+    text-decoration: none;
+}
 .tooltip_small_right{
     background-image: url(../imagens/tooltip_small_right.png);
 }
@@ -753,8 +754,14 @@ section.conteudo, footer.conteudo{
 .lista-simples ul{
     padding: 15px 35px;
     line-height: 1.5em;
-    color: #2a3a54;
+    
 }
+
+.lista-simples ul li a{
+    color: #2a3a54;
+    text-decoration: none;
+}
+
 
 .teaser img, .img-central, .icones img, .tabela img, .alinhamento-direita img{
     margin-left: 0;

@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 <section class='slider'>
-	<h2>TREIUNAMENTO E EDUCAÇÃO</h2>
-	<img src="imagens/capa_educacao.png" style='width:100%'>
+	<h2>EMPREGO</h2>
+	<img src="imagens/capa_emprego.png" style='width:100%'>
 	<div class="maior-h">
 		<P>GRI</P>
 		<P>G4-9</P>

@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <section class='slider'>
-	<h2>GOVERNAÇA CORPORATIVA</h2>
+	<h2>GOVERNANÇA CORPORATIVA</h2>
 	<div>
 		<p>GRI</p>
 		<p>G4-34</p>

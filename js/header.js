@@ -6,4 +6,10 @@ $(document).ready(function () {
 
     e.preventDefault();
   });
+
+  $('nav.menu > ul > li').click(function(e){
+  	$(this).find('ul').toggle();
+
+  	
+  });
 });

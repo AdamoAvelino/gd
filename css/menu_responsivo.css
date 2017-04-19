@@ -1,7 +1,55 @@
+/*======================de portrait até landscape ipad================================== */
+
+@media screen and (min-width: 1024px) and (max-width: 1100px){
+  
+  nav.menu ul li a{
+    font-size: 1em;
+
+  }
+
+  .tabela{
+    margin: 0px auto;
+    width: 90%;
+  }
+  .teaser-central img{
+    width: 100%;
+  }
+  .tabela img{
+    width: 100%;
+
+  }
+
+  .conteudo, .bloco{
+    padding: 2% 2%;
+  }
+
+  .slider > p.teaser-text{
+    font-size: 1em;
+    width: 50%;
+    left: 5%
+  }
+
+  .slider > h2{
+    font-size: 1.8em;
+  }
+
+  .baixo-perfil{
+    margin-top: 150px;
+  }
+
+  .estatico{
+    display: block;
+  }
+  .single, .engrenagem, .chamine, .navio{
+    display:none;
+  }
 
 
+}
 
-@media screen and (max-width: 960px){
+/*=========================Até 960Pixel=================================================*/
+
+@media screen and (max-width: 980px){
 
   .maior, .menor{
     width: 100%;
@@ -105,6 +153,11 @@ nav.menu ul li ul li{
     padding: 2%;
 }
 
+nav.menu ul li ul.sub-menu{
+    display: none;
+}
+
+
   .toggle-nav {
     padding:20px;
     float:left;
@@ -152,12 +205,13 @@ nav.menu ul li ul li{
   .slider > p.teaser-text{
     font-size: 1em;
     width: 60%;
-    left: 0%;
-    top: 2%;
+    left: 5%;
+    top: 18%;
   }
 
   .slider > h2{
     font-size: 1.8em;
+    width: 60%;
   }
 
   .baixo-perfil{
@@ -179,6 +233,7 @@ nav.menu ul li ul li{
 @media screen and (max-width: 640px){
   .slider > h2{
     font-size: 1.5em;
+    
     top: 30%;
   }
   .lateral-componente > .left > img{
@@ -201,60 +256,42 @@ nav.menu ul li ul li{
   }
 }
 
-/*======================de portrait até landscape ipad================================== */
+/*======================Até 550 Pixel===================================================*/
 
+@media screen and (max-width: 550px){
+  .slider p.teaser-text{
+    display: none;
+  }
 
-
-
-
-
-@media screen and (min-width: 1024px) and (max-width: 1100px){
-  
-  nav.menu ul li a{
+  .slider h2{
     font-size: 1em;
-
+  }
+  .menor-h, .maior-h, .medio-h{
+    display: none;
   }
 
-  .tabela{
-    margin: 0px auto;
-    width: 90%;
-  }
-  .teaser-central img{
-    width: 100%;
-  }
-  .tabela img{
-    width: 100%;
-
+  .perfil{
+    width: 60%;
+    top:90%;
   }
 
-  .conteudo, .bloco{
-    padding: 2% 2%;
+  .brand_responsive{
+    width: 60%;
   }
-
-  .slider > p.teaser-text{
-    font-size: 1em;
-    width: 50%;
-    left: 0
-  }
-
-  .slider > h2{
-    font-size: 1.8em;
-  }
-
-  .baixo-perfil{
-    margin-top: 150px;
-  }
-
-  .estatico{
+  .area-extrema > .left, .area-extrema > .right{
+    float: none;
     display: block;
-  }
-  .single, .engrenagem, .chamine, .navio{
-    display:none;
+    width: 100%;
+    font-size: .9em;
+    padding: 3% 0;
+    margin: 0 auto;
+    text-align: center;
   }
 
-
+  .area-extrema > .right > ul > li{
+    font-size: 1.2em;
+  }
+  .area-extrema > .right > ul > li:first-child{
+    margin-left: 25%;
+  }
 }
-
-
-/*============================================================================= */
-

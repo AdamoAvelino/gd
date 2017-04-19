@@ -1,6 +1,6 @@
-<footer class="verde conteudo clearfix">
-      <section class="left">
-        &copy; Todos os Direitos reservados
+<footer class="verde conteudo clearfix area-extrema">
+      <section class="left ">
+        <p>&copy; Todos os Direitos reservados</p>
       </section>
       <nav class="right">
         <ul>
